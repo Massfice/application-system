@@ -1,0 +1,26 @@
+{
+    "name": "massfice/application-system",
+    "description": "Core of my application. System application package. It's for my diploma project.",
+    "type": "library",
+    "require": {
+        "massfice/action": "^v1.0",
+        "massfice/response-status": "^v1.0",
+        "massfice/action-executor": "^v1.0",
+        "massfice/action-manager": "^v1.0",
+        "massfice/clean-url": "^v1.0",
+        "massfice/view": "^v1.0",
+        "smarty/smarty": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Massfice",
+            "email": "adrian.marian.tomasz.larysz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Massfice\\Application\\System\\": "src/"
+        }
+    }
+}
