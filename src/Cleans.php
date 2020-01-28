@@ -30,7 +30,7 @@ class Cleans {
     public static function get(int $index) : ?string {
         $cleans = self::getCleans();
 
-        return $cleans->get($idex,false);
+        return $cleans->get($index,false);
     }
 }
 
