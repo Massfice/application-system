@@ -9,7 +9,8 @@
         "massfice/action-manager": "^v1.0",
         "massfice/clean-url": "^v1.0",
         "massfice/view": "^v1.0",
-        "smarty/smarty": "^3.1"
+        "smarty/smarty": "^3.1",
+        "massfice/service": "^1.0"
     },
     "license": "MIT",
     "authors": [

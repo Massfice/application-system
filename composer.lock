@@ -1,0 +1,320 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "67afee607be399a06f174f8dd1821e32",
+    "packages": [
+        {
+            "name": "massfice/action",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/action.git",
+                "reference": "d0c0100913bfc40840e7cb3275e9de7cb8334360"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/action/zipball/d0c0100913bfc40840e7cb3275e9de7cb8334360",
+                "reference": "d0c0100913bfc40840e7cb3275e9de7cb8334360",
+                "shasum": ""
+            },
+            "require": {
+                "massfice/response-status": "^v1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\Action\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "This package contains action interfaces and factiories. This is for my diploma project.",
+            "time": "2020-02-02T12:32:05+00:00"
+        },
+        {
+            "name": "massfice/action-executor",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/action-executor.git",
+                "reference": "1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/action-executor/zipball/1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0",
+                "reference": "1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0",
+                "shasum": ""
+            },
+            "require": {
+                "massfice/action": "^v1.0",
+                "massfice/response-status": "^v1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\ActionExecutor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Action executors for my diploma project.",
+            "time": "2020-01-26T19:26:30+00:00"
+        },
+        {
+            "name": "massfice/action-manager",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/action-manager.git",
+                "reference": "941119c1e4dfc77c41794e4cff1380a5795c3840"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/941119c1e4dfc77c41794e4cff1380a5795c3840",
+                "reference": "941119c1e4dfc77c41794e4cff1380a5795c3840",
+                "shasum": ""
+            },
+            "require": {
+                "massfice/action": "^v1.0.1",
+                "massfice/action-executor": "^v1.0",
+                "massfice/response-status": "^v1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\ActionManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Managers for my actions and related factory. It is for my diploma project.",
+            "time": "2020-01-26T19:30:04+00:00"
+        },
+        {
+            "name": "massfice/clean-url",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/clean-url.git",
+                "reference": "8e91132f30e80cf46660a9af178cf1c463892a89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/clean-url/zipball/8e91132f30e80cf46660a9af178cf1c463892a89",
+                "reference": "8e91132f30e80cf46660a9af178cf1c463892a89",
+                "shasum": ""
+            },
+            "type": "libarary",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\CleanUrl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Class that handle clean urls, action, type, etc. To use this class, you have to properly configure .htaccess file. This is for my diploma project.",
+            "time": "2020-01-25T20:35:35+00:00"
+        },
+        {
+            "name": "massfice/response-status",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/response-status.git",
+                "reference": "5c23a41b41b55da50d8ddba41cc8bd781ad80fc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/response-status/zipball/5c23a41b41b55da50d8ddba41cc8bd781ad80fc4",
+                "reference": "5c23a41b41b55da50d8ddba41cc8bd781ad80fc4",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\ResponseStatus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Package contains response-status class, that contains info about validation status, response http code, errors array, messages, etc. Project for my diploma.",
+            "time": "2020-02-02T12:34:02+00:00"
+        },
+        {
+            "name": "massfice/service",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/service.git",
+                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/service/zipball/3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
+                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\Service\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Services package for my diploma project.",
+            "time": "2020-02-12T21:40:52+00:00"
+        },
+        {
+            "name": "massfice/view",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/view.git",
+                "reference": "e0972658068d8acd7c253026b9ad46cded4450ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/view/zipball/e0972658068d8acd7c253026b9ad46cded4450ae",
+                "reference": "e0972658068d8acd7c253026b9ad46cded4450ae",
+                "shasum": ""
+            },
+            "require": {
+                "smarty/smarty": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\View\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Wrapper for Smarty library. It's for my diploma project.",
+            "time": "2020-01-25T21:12:12+00:00"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.34",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "c9f0de05f41b9e52798b268ab1e625fac3b8578c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c9f0de05f41b9e52798b268ab1e625fac3b8578c",
+                "reference": "c9f0de05f41b9e52798b268ab1e625fac3b8578c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.4.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2019-02-28T06:42:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
