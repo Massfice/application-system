@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "massfice/action",
-            "version": "v1.0.7",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action.git",
-                "reference": "d0c0100913bfc40840e7cb3275e9de7cb8334360"
+                "reference": "f4ad0f3ae12d575d838c6035eff30c558776284d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action/zipball/d0c0100913bfc40840e7cb3275e9de7cb8334360",
-                "reference": "d0c0100913bfc40840e7cb3275e9de7cb8334360",
+                "url": "https://api.github.com/repos/Massfice/action/zipball/f4ad0f3ae12d575d838c6035eff30c558776284d",
+                "reference": "f4ad0f3ae12d575d838c6035eff30c558776284d",
                 "shasum": ""
             },
             "require": {
@@ -40,20 +40,20 @@
                 }
             ],
             "description": "This package contains action interfaces and factiories. This is for my diploma project.",
-            "time": "2020-02-02T12:32:05+00:00"
+            "time": "2020-02-20T05:24:08+00:00"
         },
         {
             "name": "massfice/action-executor",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action-executor.git",
-                "reference": "1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0"
+                "reference": "19d8a79bd97c4e47f93587da599c7299977035e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action-executor/zipball/1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0",
-                "reference": "1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0",
+                "url": "https://api.github.com/repos/Massfice/action-executor/zipball/19d8a79bd97c4e47f93587da599c7299977035e3",
+                "reference": "19d8a79bd97c4e47f93587da599c7299977035e3",
                 "shasum": ""
             },
             "require": {
@@ -77,20 +77,20 @@
                 }
             ],
             "description": "Action executors for my diploma project.",
-            "time": "2020-01-26T19:26:30+00:00"
+            "time": "2020-02-20T05:27:01+00:00"
         },
         {
             "name": "massfice/action-manager",
-            "version": "v1.0.4",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action-manager.git",
-                "reference": "941119c1e4dfc77c41794e4cff1380a5795c3840"
+                "reference": "961ac26454416ab7466056278281a730f149273b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/941119c1e4dfc77c41794e4cff1380a5795c3840",
-                "reference": "941119c1e4dfc77c41794e4cff1380a5795c3840",
+                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/961ac26454416ab7466056278281a730f149273b",
+                "reference": "961ac26454416ab7466056278281a730f149273b",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 }
             ],
             "description": "Managers for my actions and related factory. It is for my diploma project.",
-            "time": "2020-01-26T19:30:04+00:00"
+            "time": "2020-02-20T05:30:05+00:00"
         },
         {
             "name": "massfice/clean-url",
@@ -152,16 +152,16 @@
         },
         {
             "name": "massfice/response-status",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/response-status.git",
-                "reference": "5c23a41b41b55da50d8ddba41cc8bd781ad80fc4"
+                "reference": "fa010710117a7fa44a2eb39bc24254d875a0c799"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/response-status/zipball/5c23a41b41b55da50d8ddba41cc8bd781ad80fc4",
-                "reference": "5c23a41b41b55da50d8ddba41cc8bd781ad80fc4",
+                "url": "https://api.github.com/repos/Massfice/response-status/zipball/fa010710117a7fa44a2eb39bc24254d875a0c799",
+                "reference": "fa010710117a7fa44a2eb39bc24254d875a0c799",
                 "shasum": ""
             },
             "type": "library",
@@ -181,20 +181,20 @@
                 }
             ],
             "description": "Package contains response-status class, that contains info about validation status, response http code, errors array, messages, etc. Project for my diploma.",
-            "time": "2020-02-02T12:34:02+00:00"
+            "time": "2020-02-20T05:19:53+00:00"
         },
         {
             "name": "massfice/service",
-            "version": "v1.0.1",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/service.git",
-                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a"
+                "reference": "4f0f606be5744ab559c378b112fae85f3cfce424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/service/zipball/3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
-                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
+                "url": "https://api.github.com/repos/Massfice/service/zipball/4f0f606be5744ab559c378b112fae85f3cfce424",
+                "reference": "4f0f606be5744ab559c378b112fae85f3cfce424",
                 "shasum": ""
             },
             "type": "library",
@@ -214,7 +214,7 @@
                 }
             ],
             "description": "Services package for my diploma project.",
-            "time": "2020-02-12T21:40:52+00:00"
+            "time": "2020-02-19T05:52:46+00:00"
         },
         {
             "name": "massfice/view",
