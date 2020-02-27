@@ -3,15 +3,17 @@
 namespace Massfice\Application\System;
 
 use Massfice\ActionManager\ActionManagerFactory;
-use Massfice\Application\Config;
+use Massfice\Application\Configs\DataConfig;
+use Massfice\Application\Configs\Config;
 
 class Application {
     public static function run() {
+        Config::configure();
         $type = Cleans::getType();
         $action = Cleans::getAction();
-        $data = Config::getConfig();
+        $data = DataConfig::getData();
         
-        $namespace = isset($data["_System_Action_Namespace"]) ? $data["_System_Action_Namespace"] : "\\Massfice\\Application\\";
+        $namespace = isset($data["_System_Action_Namespace"]) ? $data["_System_Action_Namespace"] : "\\Massfice\\Application\\Actions\\";
         
         $manager = ActionManagerFactory::create($type,$namespace);
         $action = $manager->createAction($action);
