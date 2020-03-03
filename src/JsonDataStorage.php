@@ -23,7 +23,7 @@ class JsonDataStorage {
 
     public static function getInstance() : self {
         if(!isset(self::$instance)) {
-            self::$istance = new self();
+            self::$instance = new self();
         }
 
         return self::$instance;
